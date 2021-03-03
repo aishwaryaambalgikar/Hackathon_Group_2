@@ -1,0 +1,4 @@
+name: Hackathon
+suite-files:
+  - ./Smoke.xml
+  - ./Regression.xml

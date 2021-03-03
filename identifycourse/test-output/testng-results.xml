@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Suite" duration-ms="23777" started-at="2021-03-03T12:48:01Z" finished-at="2021-03-03T12:48:25Z">
+    <groups>
+    </groups>
+    <test name="Smoke Test" duration-ms="23777" started-at="2021-03-03T12:48:01Z" finished-at="2021-03-03T12:48:25Z">
+      <class name="tests.CoursesValid">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:tests.CoursesValid@441772e]" name="setDriver" is-config="true" duration-ms="20107" started-at="2021-03-03T18:17:41Z" finished-at="2021-03-03T18:18:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="business()[pri:1, instance:tests.CoursesValid@441772e]" name="business" duration-ms="23763" started-at="2021-03-03T18:18:01Z" finished-at="2021-03-03T18:18:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- business -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:tests.CoursesValid@441772e]" name="closeTheBrowser" is-config="true" duration-ms="3368" started-at="2021-03-03T18:18:25Z" finished-at="2021-03-03T18:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- tests.CoursesValid -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Smoke Suite -->
+  <suite name="Regression Suite" duration-ms="47681" started-at="2021-03-03T12:48:44Z" finished-at="2021-03-03T12:49:31Z">
+    <groups>
+    </groups>
+    <test name="Regresssion Test" duration-ms="47681" started-at="2021-03-03T12:48:44Z" finished-at="2021-03-03T12:49:31Z">
+      <class name="tests.Courses">
+        <test-method status="PASS" signature="setDriver()[pri:0, instance:tests.Courses@5ffead27]" name="setDriver" is-config="true" duration-ms="14736" started-at="2021-03-03T18:18:29Z" finished-at="2021-03-03T18:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method status="PASS" signature="searchWeb()[pri:1, instance:tests.Courses@5ffead27]" name="searchWeb" duration-ms="14344" started-at="2021-03-03T18:18:44Z" finished-at="2021-03-03T18:18:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchWeb -->
+        <test-method status="PASS" signature="retrieveLanguage()[pri:2, instance:tests.Courses@5ffead27]" name="retrieveLanguage" duration-ms="7445" started-at="2021-03-03T18:18:58Z" finished-at="2021-03-03T18:19:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveLanguage -->
+        <test-method status="PASS" signature="retrieveLevel()[pri:3, instance:tests.Courses@5ffead27]" name="retrieveLevel" duration-ms="5069" started-at="2021-03-03T18:19:05Z" finished-at="2021-03-03T18:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- retrieveLevel -->
+        <test-method status="PASS" signature="business()[pri:4, instance:tests.Courses@5ffead27]" name="business" duration-ms="20811" started-at="2021-03-03T18:19:10Z" finished-at="2021-03-03T18:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- business -->
+        <test-method status="PASS" signature="closeTheBrowser()[pri:0, instance:tests.Courses@5ffead27]" name="closeTheBrowser" is-config="true" duration-ms="1780" started-at="2021-03-03T18:19:31Z" finished-at="2021-03-03T18:19:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- tests.Courses -->
+    </test> <!-- Regresssion Test -->
+  </suite> <!-- Regression Suite -->
+  <suite name="Hackathon" duration-ms="0" started-at="2021-03-03T12:49:34Z" finished-at="2021-03-03T12:49:34Z">
+    <groups>
+    </groups>
+  </suite> <!-- Hackathon -->
+</testng-results>
